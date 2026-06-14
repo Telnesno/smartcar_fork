@@ -1,0 +1,171 @@
+# serializer version: 1
+# name: test_lock[unknown_make-lock-200-success-locked-NoneType-1]
+  list([
+    tuple(
+      'post',
+      URL('http://test.local/v3/vehicles/a1d50709-3502-4faa-ba43-a5c7565e6a09/security/lock'),
+      None,
+      dict({
+        'authorization': 'Bearer mock-token',
+      }),
+    ),
+  ])
+# ---
+# name: test_lock[unknown_make-lock-401-unauthroized-unlocked-NoneType-1]
+  list([
+    tuple(
+      'post',
+      URL('http://test.local/v3/vehicles/a1d50709-3502-4faa-ba43-a5c7565e6a09/security/lock'),
+      None,
+      dict({
+        'authorization': 'Bearer mock-token',
+      }),
+    ),
+  ])
+# ---
+# name: test_lock[unknown_make-lock-409-unreachable-unlocked-NoneType-1]
+  list([
+    tuple(
+      'post',
+      URL('http://test.local/v3/vehicles/a1d50709-3502-4faa-ba43-a5c7565e6a09/security/lock'),
+      None,
+      dict({
+        'authorization': 'Bearer mock-token',
+      }),
+    ),
+  ])
+# ---
+# name: test_lock[unknown_make-unlock-200-success-unlocked-NoneType-1]
+  list([
+    tuple(
+      'post',
+      URL('http://test.local/v3/vehicles/a1d50709-3502-4faa-ba43-a5c7565e6a09/security/unlock'),
+      None,
+      dict({
+        'authorization': 'Bearer mock-token',
+      }),
+    ),
+  ])
+# ---
+# name: test_lock[unknown_make-unlock-401-unauthroized-unlocked-NoneType-1]
+  list([
+    tuple(
+      'post',
+      URL('http://test.local/v3/vehicles/a1d50709-3502-4faa-ba43-a5c7565e6a09/security/unlock'),
+      None,
+      dict({
+        'authorization': 'Bearer mock-token',
+      }),
+    ),
+  ])
+# ---
+# name: test_lock[unknown_make-unlock-409-unreachable-unlocked-NoneType-1]
+  list([
+    tuple(
+      'post',
+      URL('http://test.local/v3/vehicles/a1d50709-3502-4faa-ba43-a5c7565e6a09/security/unlock'),
+      None,
+      dict({
+        'authorization': 'Bearer mock-token',
+      }),
+    ),
+  ])
+# ---
+# name: test_lock[unknown_make-unlock-500-server-unlocked-NoneType-4]
+  list([
+    tuple(
+      'post',
+      URL('http://test.local/v3/vehicles/a1d50709-3502-4faa-ba43-a5c7565e6a09/security/unlock'),
+      None,
+      dict({
+        'authorization': 'Bearer mock-token',
+      }),
+    ),
+    tuple(
+      'post',
+      URL('http://test.local/v3/vehicles/a1d50709-3502-4faa-ba43-a5c7565e6a09/security/unlock'),
+      None,
+      dict({
+        'authorization': 'Bearer mock-token',
+      }),
+    ),
+    tuple(
+      'post',
+      URL('http://test.local/v3/vehicles/a1d50709-3502-4faa-ba43-a5c7565e6a09/security/unlock'),
+      None,
+      dict({
+        'authorization': 'Bearer mock-token',
+      }),
+    ),
+    tuple(
+      'post',
+      URL('http://test.local/v3/vehicles/a1d50709-3502-4faa-ba43-a5c7565e6a09/security/unlock'),
+      None,
+      dict({
+        'authorization': 'Bearer mock-token',
+      }),
+    ),
+  ])
+# ---
+# name: test_webhook_update[vehicle_state_all-byd_seal-lock][lock.byd_seal_u_dm_i_door_lock]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'age': '2026-01-09T00:53:21+00:00',
+      'fetched_at': '2026-01-09T00:53:29.852000+00:00',
+      'friendly_name': 'BYD Seal U Dm-i Door Lock',
+      'supported_features': <LockEntityFeature: 0>,
+    }),
+    'context': <ANY>,
+    'entity_id': 'lock.byd_seal_u_dm_i_door_lock',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'locked',
+  })
+# ---
+# name: test_webhook_update[vehicle_state_all-jaguar_ipace-lock][lock.jaguar_i_pace_door_lock]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'age': '2025-12-08T01:34:15+00:00',
+      'fetched_at': '2025-12-08T01:34:24.453000+00:00',
+      'friendly_name': 'JAGUAR I-PACE Door Lock',
+      'supported_features': <LockEntityFeature: 0>,
+    }),
+    'context': <ANY>,
+    'entity_id': 'lock.jaguar_i_pace_door_lock',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'locked',
+  })
+# ---
+# name: test_webhook_update[vehicle_state_all-polestar_2-lock][lock.polestar_polestar_2_door_lock]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'age': '2026-01-31T22:09:52+00:00',
+      'fetched_at': '2026-02-01T09:25:42.652000+00:00',
+      'friendly_name': 'POLESTAR Polestar 2 Door Lock',
+      'supported_features': <LockEntityFeature: 0>,
+    }),
+    'context': <ANY>,
+    'entity_id': 'lock.polestar_polestar_2_door_lock',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'locked',
+  })
+# ---
+# name: test_webhook_update[vehicle_state_all-vw_id_4-lock][lock.vw_id_4_door_lock]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'VW ID.4 Door Lock',
+      'supported_features': <LockEntityFeature: 0>,
+    }),
+    'context': <ANY>,
+    'entity_id': 'lock.vw_id_4_door_lock',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---

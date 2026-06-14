@@ -1,0 +1,45 @@
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+change-template: "- #$NUMBER $TITLE @$AUTHOR"
+sort-direction: "ascending"
+categories:
+  - title: ":danger: Breaking changes"
+    label: "breaking change"
+  - title: ":bulb: Features"
+    label: "enhancement"
+  - title: ":bug: Bug Fixes"
+    label: "bug"
+  - title: ":pencil2: Documentation"
+    label: "documentation"
+  - title: ":toolbox: Chore"
+    label: "chore"
+    collapse-after: 3
+version-resolver:
+  major:
+    labels:
+      - "major"
+  minor:
+    labels:
+      - "minor"
+  patch:
+    labels:
+      - "patch"
+  default: "patch"
+template: |
+  ## Changes
+
+  $CHANGES
+
+  ## Contributors
+  $CONTRIBUTORS
+
+exclude-contributors:
+  - "github-actions"
+
+autolabeler:
+  - label: "bug"
+    branch:
+      - "/fix(?:-|\/).+/"
+  - label: "enhancement"
+    branch:
+      - "/(feature|add)(?:-|\/).+/"

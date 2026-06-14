@@ -1,0 +1,315 @@
+[
+    {
+        "method": "get",
+        "vehicle_path": "/signals",
+        "params": {},
+        "response": {
+            "data": [
+                {
+                    "id": "tractionbattery-stateofcharge",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "tractionbattery-stateofcharge",
+                        "name": "State of Charge",
+                        "group": "TractionBattery",
+                        "status": {
+                            "value": "SUCCESS"
+                        },
+                        "body": {
+                            "unit": "percent",
+                            "value": 68
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:26.712Z",
+                        "oemUpdatedAt": "2025-05-09T15:40:57.000Z",
+                        "ingestedAt": "2025-05-09T17:27:26.800Z"
+                    }
+                },
+                {
+                    "id": "tractionbattery-range",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "tractionbattery-range",
+                        "name": "Range",
+                        "group": "TractionBattery",
+                        "status": {
+                            "value": "SUCCESS"
+                        },
+                        "body": {
+                            "unit": "km",
+                            "value": 275
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:26.712Z",
+                        "oemUpdatedAt": "2025-05-09T15:40:57.000Z",
+                        "ingestedAt": "2025-05-09T17:27:26.800Z"
+                    }
+                },
+                {
+                    "id": "tractionbattery-nominalcapacity",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "tractionbattery-nominalcapacity",
+                        "name": "Nominal Capacity",
+                        "group": "TractionBattery",
+                        "status": {
+                            "value": "SUCCESS"
+                        },
+                        "body": {
+                            "value": 82
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:25.114Z",
+                        "oemUpdatedAt": "2025-05-09T17:27:25.114Z",
+                        "ingestedAt": "2025-05-09T17:27:25.200Z"
+                    }
+                },
+                {
+                    "id": "charge-detailedchargingstatus",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "charge-detailedchargingstatus",
+                        "name": "Charging Status",
+                        "group": "Charge",
+                        "status": {
+                            "value": "SUCCESS"
+                        },
+                        "body": {
+                            "value": "CHARGING"
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:26.712Z",
+                        "oemUpdatedAt": "2025-05-09T15:40:57.000Z",
+                        "ingestedAt": "2025-05-09T17:27:26.800Z"
+                    }
+                },
+                {
+                    "id": "charge-ischarging",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "charge-ischarging",
+                        "name": "Is Charging",
+                        "group": "Charge",
+                        "status": {
+                            "value": "SUCCESS"
+                        },
+                        "body": {
+                            "value": true
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:26.712Z",
+                        "oemUpdatedAt": "2025-05-09T15:40:57.000Z",
+                        "ingestedAt": "2025-05-09T17:27:26.800Z"
+                    }
+                },
+                {
+                    "id": "charge-ischargingcableconnected",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "charge-ischargingcableconnected",
+                        "name": "Is Charging Cable Connected",
+                        "group": "Charge",
+                        "status": {
+                            "value": "SUCCESS"
+                        },
+                        "body": {
+                            "value": true
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:26.712Z",
+                        "oemUpdatedAt": "2025-05-09T15:40:57.000Z",
+                        "ingestedAt": "2025-05-09T17:27:26.800Z"
+                    }
+                },
+                {
+                    "id": "charge-chargelimits",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "charge-chargelimits",
+                        "name": "Charge Limits",
+                        "group": "Charge",
+                        "status": {
+                            "value": "SUCCESS"
+                        },
+                        "body": {
+                            "unit": "percent",
+                            "values": [
+                                {
+                                    "type": "global",
+                                    "limit": 100,
+                                    "condition": null
+                                }
+                            ]
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:26.712Z",
+                        "oemUpdatedAt": "2025-05-09T15:40:55.000Z",
+                        "ingestedAt": "2025-05-09T17:27:26.800Z"
+                    }
+                },
+                {
+                    "id": "internalcombustionengine-oillife",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "internalcombustionengine-oillife",
+                        "name": "Oil Life",
+                        "group": "InternalCombustionEngine",
+                        "status": {
+                            "value": "ERROR",
+                            "error": {
+                                "type": "AUTHENTICATION",
+                                "code": "PERMISSION",
+                                "title": "Permission Error",
+                                "detail": "Insufficient permissions to access this signal.",
+                                "resolution": {
+                                    "type": "REAUTHENTICATE"
+                                }
+                            }
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:26.712Z",
+                        "oemUpdatedAt": null,
+                        "ingestedAt": "2025-05-09T17:27:26.800Z"
+                    }
+                },
+                {
+                    "id": "internalcombustionengine-fuellevel",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "internalcombustionengine-fuellevel",
+                        "name": "Fuel Level",
+                        "group": "InternalCombustionEngine",
+                        "status": {
+                            "value": "ERROR",
+                            "error": {
+                                "type": "AUTHENTICATION",
+                                "code": "PERMISSION",
+                                "title": "Permission Error",
+                                "detail": "Insufficient permissions to access this signal.",
+                                "resolution": {
+                                    "type": "REAUTHENTICATE"
+                                }
+                            }
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:26.712Z",
+                        "oemUpdatedAt": null,
+                        "ingestedAt": "2025-05-09T17:27:26.800Z"
+                    }
+                },
+                {
+                    "id": "location-preciselocation",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "location-preciselocation",
+                        "name": "Precise Location",
+                        "group": "Location",
+                        "status": {
+                            "value": "SUCCESS"
+                        },
+                        "body": {
+                            "latitude": 37.4292,
+                            "longitude": 122.1381
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:25.401Z",
+                        "oemUpdatedAt": "2025-05-09T15:40:52.000Z",
+                        "ingestedAt": "2025-05-09T17:27:25.500Z"
+                    }
+                },
+                {
+                    "id": "odometer-traveleddistance",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "odometer-traveleddistance",
+                        "name": "Traveled Distance",
+                        "group": "Odometer",
+                        "status": {
+                            "value": "SUCCESS"
+                        },
+                        "body": {
+                            "unit": "km",
+                            "value": 21919
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:25.401Z",
+                        "oemUpdatedAt": "2025-05-09T15:40:52.000Z",
+                        "ingestedAt": "2025-05-09T17:27:25.500Z"
+                    }
+                },
+                {
+                    "id": "closure-islocked",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "closure-islocked",
+                        "name": "Is Locked",
+                        "group": "Closure",
+                        "status": {
+                            "value": "ERROR",
+                            "error": {
+                                "type": "AUTHENTICATION",
+                                "code": "PERMISSION",
+                                "title": "Permission Error",
+                                "detail": "Insufficient permissions to access this signal.",
+                                "resolution": {
+                                    "type": "REAUTHENTICATE"
+                                }
+                            }
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:26.712Z",
+                        "oemUpdatedAt": null,
+                        "ingestedAt": "2025-05-09T17:27:26.800Z"
+                    }
+                },
+                {
+                    "id": "wheel-tires",
+                    "type": "signal",
+                    "attributes": {
+                        "code": "wheel-tires",
+                        "name": "Tire Pressure",
+                        "group": "Wheel",
+                        "status": {
+                            "value": "ERROR",
+                            "error": {
+                                "type": "AUTHENTICATION",
+                                "code": "PERMISSION",
+                                "title": "Permission Error",
+                                "detail": "Insufficient permissions to access this signal.",
+                                "resolution": {
+                                    "type": "REAUTHENTICATE"
+                                }
+                            }
+                        }
+                    },
+                    "meta": {
+                        "retrievedAt": "2025-05-09T17:27:26.712Z",
+                        "oemUpdatedAt": null,
+                        "ingestedAt": "2025-05-09T17:27:26.800Z"
+                    }
+                }
+            ],
+            "meta": {
+                "pageNumber": 1,
+                "pageSize": 50,
+                "totalCount": 13
+            },
+            "links": {
+                "self": "/vehicles/test_vehicle_id/signals?page=1",
+                "next": null
+            }
+        }
+    }
+]

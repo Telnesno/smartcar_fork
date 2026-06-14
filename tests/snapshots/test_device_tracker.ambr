@@ -1,0 +1,79 @@
+# serializer version: 1
+# name: test_restore_device_tracker_save_state[enabled_entities0-vw_id_4-location]
+  list([
+    dict({
+      'raw_value': dict({
+        'latitude': 37.4292,
+        'longitude': 122.1381,
+      }),
+    }),
+  ])
+# ---
+# name: test_webhook_update[vehicle_state_all-byd_seal-device_tracker][device_tracker.byd_seal_u_dm_i_location]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'BYD Seal U Dm-i Location',
+      'icon': 'mdi:car',
+    }),
+    'context': <ANY>,
+    'entity_id': 'device_tracker.byd_seal_u_dm_i_location',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_webhook_update[vehicle_state_all-jaguar_ipace-device_tracker][device_tracker.jaguar_i_pace_location]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'age': '2025-12-07T16:55:44+00:00',
+      'fetched_at': '2025-12-08T01:34:14.325000+00:00',
+      'friendly_name': 'JAGUAR I-PACE Location',
+      'gps_accuracy': 0,
+      'icon': 'mdi:car',
+      'latitude': 52.238523055555554,
+      'longitude': 0.15465555555555555,
+      'source_type': <SourceType.GPS: 'gps'>,
+    }),
+    'context': <ANY>,
+    'entity_id': 'device_tracker.jaguar_i_pace_location',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'not_home',
+  })
+# ---
+# name: test_webhook_update[vehicle_state_all-polestar_2-device_tracker][device_tracker.polestar_polestar_2_location]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'age': '2026-01-31T09:47:44+00:00',
+      'fetched_at': '2026-02-01T09:25:42.671000+00:00',
+      'friendly_name': 'POLESTAR Polestar 2 Location',
+      'gps_accuracy': 0,
+      'icon': 'mdi:car',
+      'latitude': 61.11111111111111,
+      'longitude': 23.33333333333333,
+      'source_type': <SourceType.GPS: 'gps'>,
+    }),
+    'context': <ANY>,
+    'entity_id': 'device_tracker.polestar_polestar_2_location',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'not_home',
+  })
+# ---
+# name: test_webhook_update[vehicle_state_all-vw_id_4-device_tracker][device_tracker.vw_id_4_location]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'VW ID.4 Location',
+      'icon': 'mdi:car',
+    }),
+    'context': <ANY>,
+    'entity_id': 'device_tracker.vw_id_4_location',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---

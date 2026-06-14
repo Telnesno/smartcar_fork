@@ -1,0 +1,19 @@
+[
+    {
+        "method": "get",
+        "vehicle_path": "/signals",
+        "params": {},
+        "status": 500,
+        "response": {
+            "errors": [
+                {
+                    "status": "500",
+                    "type": "SERVER",
+                    "code": "INTERNAL",
+                    "title": "Internal Server Error",
+                    "detail": "An unexpected error occurred on the server."
+                }
+            ]
+        }
+    }
+]

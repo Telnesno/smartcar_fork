@@ -1,0 +1,19 @@
+[
+    {
+        "method": "get",
+        "vehicle_path": "/signals",
+        "params": {},
+        "status": 401,
+        "response": {
+            "errors": [
+                {
+                    "status": "401",
+                    "type": "AUTHENTICATION",
+                    "code": "UNAUTHORIZED",
+                    "title": "Unauthorized",
+                    "detail": "The Authorization token is missing or invalid."
+                }
+            ]
+        }
+    }
+]

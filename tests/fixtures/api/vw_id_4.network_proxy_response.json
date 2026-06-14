@@ -1,0 +1,19 @@
+[
+    {
+        "method": "get",
+        "vehicle_path": "/signals",
+        "params": {},
+        "status": 502,
+        "response": {
+            "errors": [
+                {
+                    "status": "502",
+                    "type": "UPSTREAM",
+                    "code": "UPSTREAM_ERROR",
+                    "title": "Bad Gateway",
+                    "detail": "Upstream vehicle service error."
+                }
+            ]
+        }
+    }
+]

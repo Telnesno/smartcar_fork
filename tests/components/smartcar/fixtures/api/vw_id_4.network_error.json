@@ -1,0 +1,9 @@
+[
+    {
+        "method": "get",
+        "vehicle_path": "/signals",
+        "params": {},
+        "side_effect": "aiohttp.ClientConnectorError",
+        "status": 500
+    }
+]
